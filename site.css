@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.content
+{
+    margin-bottom: 1cm;
+}
+
+.content::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cm
+{
+    width: 1cm;
+    height: 1cm;
+}
+
+.in
+{
+    width: 1in;
+    height: 1in;
+}
+
+.cel
+{
+    float: left;
+
+    text-align: center;
+    color: white;
+}
+
+@media print
+{
+    .cel
+    {
+        color: black;
+        border: 1px dotted grey;
+    }
+}
+
+.green
+{
+    background-color: green;
+}
+
+.blue
+{
+    background-color: dodgerblue;
+}
+
+.red
+{
+    background-color: red;
+}
+
+.yellow
+{
+    background-color: yellow;
+}
+
